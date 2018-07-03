@@ -265,7 +265,7 @@ This worksop focuses on the skills needed to use effectively a High-Performance 
   This is one of the places where people frequently make mistakes, so
   please preview your site before committing, and make sure to run
   'tools/check' as well.
-{% endcomment %}
+
 <h2 id="syllabus">Syllabus</h2>
 
 {% if page.carpentry == "swc" %}
@@ -275,6 +275,7 @@ This worksop focuses on the skills needed to use effectively a High-Performance 
 {% elsif page.carpentry == "lc" %}
   {% include lc/syllabus.html %}
 {% endif %}
+{% endcomment %}
 
 <hr/>
 
@@ -288,7 +289,6 @@ This worksop focuses on the skills needed to use effectively a High-Performance 
   This is the other place where people frequently make mistakes, so
   please preview your site before committing, and make sure to run
   'tools/check' as well.
-{% endcomment %}
 
 
 <h2 id="setup">Setup</h2>
@@ -311,6 +311,7 @@ This worksop focuses on the skills needed to use effectively a High-Performance 
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
+{% endcomment %}
 
 {% comment %}
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
