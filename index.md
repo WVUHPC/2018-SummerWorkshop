@@ -53,8 +53,7 @@ If you are running a self-organized workshop or have not put in a workshop reque
 and our administrator may contact you if we need any extra information.</h4>
 {% endcomment %}
 <h4>
-This worksop focuses on the skills needed to use effectively a High-Performance Computing (HPC) cluster. In particular the usage of WVU clusters, Mountaineer, Spruce Knob and the next cluster, Thorny Flat, to be deployed in Fall. The workshop assumes familiarity with Unix/Linux environments and some basic skills in Programming. Most of the examples and exercises will be executed on Spruce, so the only requierement of desktop computers and personal laptops is the ability to connect via SSH to the cluster. Both Linux and Mac offers that natively, windows users can rely on PuTTy or MobaXterm that can be downloaded from 
-https://mobaxterm.mobatek.net
+This worksop focuses on the skills needed to use effectively a High-Performance Computing (HPC) cluster. In particular the usage of WVU clusters, Mountaineer, Spruce Knob and the next cluster, Thorny Flat, to be deployed in Fall. The workshop assumes familiarity with Unix/Linux environments and some basic skills in Programming. 
 </h4>
 
 <h2 id="general">General Information</h2>
@@ -125,6 +124,7 @@ https://mobaxterm.mobatek.net
   Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
+{% comment %}
   <strong>Requirements:</strong> Participants must bring a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
   on. They should have a few specific software packages installed (listed
@@ -137,6 +137,8 @@ https://mobaxterm.mobatek.net
   Library Carpentry's
   {% endif %}
   <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+{% endcomment %}
+  <strong>Requirements:</strong> Most of the examples and exercises will be executed on Spruce and access will be provided for the workshop. The only requierement of desktop computers and personal laptops is the ability to connect via SSH to the cluster. Both Linux and Mac offers that natively. Windows users can download and install <a href="https://www.putty.org">PuTTy</a> for a basic SSH client or <a href="https://mobaxterm.mobatek.net">MobaXterm</a> for a SSH client with X11 server.
 </p>
 
 {% comment %}
@@ -144,7 +146,7 @@ https://mobaxterm.mobatek.net
 
   Modify the block below if there are any barriers to accessibility or
   special instructions.
-{% endcomment %}
+
 <p id="accessibility">
   <strong>Accessibility:</strong> We are committed to making this workshop
   accessible to everybody.
@@ -162,6 +164,7 @@ https://mobaxterm.mobatek.net
   get in touch (using contact details below) and we will
   attempt to provide them.
 </p>
+{% endcomment %}
 
 {% comment %}
   CONTACT EMAIL ADDRESS
@@ -192,7 +195,7 @@ https://mobaxterm.mobatek.net
 
 {% comment %} 
  SURVEYS - DO NOT EDIT SURVEY LINKS 
-{% endcomment %}
+
 <h2 id="surveys">Surveys</h2>
 
 {% if page.carpentry == "swc" %} 
@@ -206,6 +209,7 @@ https://mobaxterm.mobatek.net
 {% elsif page.carpentry == "lc" %}
 <p>Ask your instructor about pre- and post-workshop Survey details.</p>
 {% endif %}
+{% endcomment %}
 
 <hr/>
 
@@ -286,6 +290,7 @@ https://mobaxterm.mobatek.net
   'tools/check' as well.
 {% endcomment %}
 
+
 <h2 id="setup">Setup</h2>
 
 <p>
@@ -307,6 +312,7 @@ https://mobaxterm.mobatek.net
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
+{% comment %}
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
   <h3>The Bash Shell</h3>
 
@@ -396,7 +402,9 @@ https://mobaxterm.mobatek.net
     </div>
   </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
+{% endcomment %}
 
+{% comment %}
 <div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatability
            is given at https://help.github.com/articles/supported-browsers/{% endcomment %}
   <h3>Git</h3>
@@ -452,7 +460,9 @@ https://mobaxterm.mobatek.net
     </div>
   </div>
 </div> {% comment %} End of 'Git' section. {% endcomment %}
+{% endcomment %}
 
+{% comment %}
 <div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
   <h3>Text Editor</h3>
 
@@ -524,7 +534,9 @@ https://mobaxterm.mobatek.net
     </div>
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
+{% endcomment %}
 
+{% comment %}
 <div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
            the workshop will teach Python using something other than
            the Jupyter notebook.
@@ -617,7 +629,9 @@ https://mobaxterm.mobatek.net
   </p>
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
+{% endcomment %}
 
+{% comment %}
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
 
@@ -668,7 +682,9 @@ https://mobaxterm.mobatek.net
     </div>
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
+{% endcomment %}
 
+{% comment %}
 <div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
   <h3>SQLite</h3>
 
@@ -714,7 +730,9 @@ https://mobaxterm.mobatek.net
     <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
     Instructors will provide a workaround for it if needed.</strong></p>
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
+{% endcomment %}
 
+{% comment %}
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
   <h3>OpenRefine</h3>
   <p>
@@ -761,6 +779,7 @@ https://mobaxterm.mobatek.net
     </div>
   </div>
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
+{% endcomment %}
 
 {% comment %}
 <div id="vm">
