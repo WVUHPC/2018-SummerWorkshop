@@ -7,7 +7,7 @@ country: "us"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "39.624750,-79.963549"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
 humandate: "July 16-19, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "9:00 am - 4:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-07-16      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-07-19        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Guillermo Avendano-Franco"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -53,7 +53,7 @@ If you are running a self-organized workshop or have not put in a workshop reque
 and our administrator may contact you if we need any extra information.</h4>
 {% endcomment %}
 <h4>
-This worksop focuses on the skills needed to use effectively a High-Performance Computing (HPC) cluster. In particular the usage of WVU clusters, Mountaineer, Spruce Knob and the next cluster, Thorny Flat, to be deployed in Fall. The workshop assumes familiarity with Unix/Linux environments and some basic skills in Programming. 
+This workshop focuses on the skills needed to use effectively a High-Performance Computing (HPC) cluster. In particular the usage of WVU clusters: "Mountaineer", "Spruce Knob" and the forthcoming cluster "Thorny Flat" to be deployed in Fall. 
 </h4>
 
 <h2 id="general">General Information</h2>
@@ -64,7 +64,10 @@ This worksop focuses on the skills needed to use effectively a High-Performance 
   Edit the general explanatory paragraph below if you want to change
   the pitch.
 {% endcomment %}
-{% if page.carpentry == "swc" %}
+
+{% if page.carpentry == "wvu" %}
+  {% include wvu/intro.html %}
+{% elsif page.carpentry == "swc" %}
   {% include sc/intro.html %}
 {% elsif page.carpentry == "dc" %}
   {% include dc/intro.html %}
@@ -78,7 +81,10 @@ This worksop focuses on the skills needed to use effectively a High-Performance 
   Explain who your audience is.  (In particular, tell readers if the
   workshop is only open to people from a particular institution.
 {% endcomment %}
-{% if page.carpentry == "swc" %}
+
+{% if page.carpentry == "wvu" %}
+  {% include wvu/who.html %}
+{% elsif page.carpentry == "swc" %}
   {% include sc/who.html %}
 {% elsif page.carpentry == "dc" %}
   {% include dc/who.html %}
@@ -221,9 +227,12 @@ This worksop focuses on the skills needed to use effectively a High-Performance 
   to match your plans.  You may also want to change 'Day 1' and 'Day
   2' to be actual dates or days of the week.
 {% endcomment %}
+
 <h2 id="schedule">Schedule</h2>
 
-{% if page.carpentry == "swc" %}
+{% if page.carpentry == "wvu" %}
+  {% include wvu/schedule.html %}
+{% elsif page.carpentry == "swc" %}
   {% include sc/schedule.html %}
 {% elsif page.carpentry == "dc" %}
   {% include dc/schedule.html %}
@@ -265,17 +274,20 @@ This worksop focuses on the skills needed to use effectively a High-Performance 
   This is one of the places where people frequently make mistakes, so
   please preview your site before committing, and make sure to run
   'tools/check' as well.
+{% endcomment %}
 
 <h2 id="syllabus">Syllabus</h2>
 
-{% if page.carpentry == "swc" %}
+{% if page.carpentry == "wvu" %}
+  {% include wvu/syllabus.html %}
+{% elsif page.carpentry == "swc" %}
   {% include sc/syllabus.html %}
 {% elsif page.carpentry == "dc" %}
   {% include dc/syllabus.html %}
 {% elsif page.carpentry == "lc" %}
   {% include lc/syllabus.html %}
 {% endif %}
-{% endcomment %}
+
 
 <hr/>
 
