@@ -8,7 +8,7 @@
 	Copyright &copy; 2016–{{ 'now' | date: "%Y" }}
 	{% if site.carpentry == "wvu" %}
 	<a href="{{ site.wvu_site }}">West Virginia University (HPC)</a>
-	{% if site.carpentry == "swc" %}
+	{% elsif site.carpentry == "swc" %}
 	<a href="{{ site.swc_site }}">Software Carpentry</a>
 	{% elsif site.carpentry == "dc" %}
 	<a href="{{ site.dc_site }}">Data Carpentry</a>
@@ -21,7 +21,7 @@
     </div>
     <div class="col-md-6" align="right">
       <h4>
-	<a href="mailto:{{ site.email }}">Contact</a>
+	<a href="mailto:{{ site.email }}">Contact Us</a>
       </h4>
     </div>
   </div>
