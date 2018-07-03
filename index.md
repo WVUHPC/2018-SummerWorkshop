@@ -46,10 +46,16 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
+{% comment %}
 <h4>This is the workshop template. Delete these lines and use it to customize your own website.
 If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
 <a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
 and our administrator may contact you if we need any extra information.</h4>
+{% endcomment %}
+<h4>
+This worksop focuses on the skills needed to use effectively a High-Performance Computing (HPC) cluster. In particular the usage of WVU clusters, Mountaineer, Spruce Knob and the next cluster, Thorny Flat, to be deployed in Fall. The workshop assumes familiarity with Unix/Linux environments and some basic skills in Programming. Most of the examples and exercises will be executed on Spruce, so the only requierement of desktop computers and personal laptops is the ability to connect via SSH to the cluster. Both Linux and Mac offers that natively, windows users can rely on PuTTy or MobaXterm that can be downloaded from 
+https://mobaxterm.mobatek.net
+</h4>
 
 <h2 id="general">General Information</h2>
 
