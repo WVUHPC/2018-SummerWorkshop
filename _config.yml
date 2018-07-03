@@ -29,6 +29,7 @@ repository: <USERNAME>/<PROJECT>
 email: "helpdesk@hpc.wvu.edu"
 
 # Sites.
+wvu_site: "https://it.wvu.edu/research/research-computing/high-performance-computing"
 amy_site: "https://amy.software-carpentry.org/workshops"
 carpentries_github: "https://github.com/carpentries"
 carpentries_pages: "https://carpentries.github.io"
