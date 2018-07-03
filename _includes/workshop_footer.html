@@ -7,7 +7,7 @@
       <h4>
 	Copyright &copy; 2016–{{ 'now' | date: "%Y" }}
 	{% if site.carpentry == "wvu" %}
-	<a href="https://it.wvu.edu/research/research-computing/high-performance-computing">West Virginia University (HPC)</a>
+	<a href="{{ site.wvu_site }}">West Virginia University (HPC)</a>
 	{% if site.carpentry == "swc" %}
 	<a href="{{ site.swc_site }}">Software Carpentry</a>
 	{% elsif site.carpentry == "dc" %}
@@ -21,10 +21,7 @@
     </div>
     <div class="col-md-6" align="right">
       <h4>
-	{% comment %}
 	<a href="mailto:{{ site.email }}">Contact</a>
-	{% endcomment %}
-	<a href="mailto:gufranco@mail.wvu.edy">Contact</a>
       </h4>
     </div>
   </div>
