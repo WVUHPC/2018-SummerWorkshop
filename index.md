@@ -144,7 +144,7 @@ This workshop focuses on the skills needed to use effectively a High-Performance
   {% endif %}
   <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
 {% endcomment %}
-  <strong>Requirements:</strong> Most of the examples and exercises will be executed on Spruce and access will be provided for the workshop. The only requierement of desktop computers and personal laptops is the ability to connect via SSH to the cluster. Both Linux and Mac offers that natively. Windows users can download and install <a href="https://www.putty.org">PuTTy</a> for a basic SSH client or <a href="https://mobaxterm.mobatek.net">MobaXterm</a> for a SSH client with X11 server.
+  <strong>Requirements:</strong> Most of the examples and exercises will be executed on Spruce and access will be provided for the workshop. The only requirement of desktop computers and personal laptops is the ability to connect via SSH to the cluster. Both Linux and Mac offers that natively. Windows users can download and install <a href="https://www.putty.org">PuTTy</a> for a basic SSH client or <a href="https://mobaxterm.mobatek.net">MobaXterm</a> for an SSH client with X11 server.
 </p>
 
 {% comment %}
