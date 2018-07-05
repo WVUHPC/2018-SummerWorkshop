@@ -4,15 +4,17 @@
 <div class="jumbotron">
   <div class="row">
 
-    <div class="col-md-10 col-md-offset-1">
-
          <div class="col-md-6">
 	  <a href="{{ site.wvu_site }}" class="pull-left">
             <img src="{{ page.root }}/assets/img/wvu-rc.png" alt="WVU Research Computing logo" />
 	  </a>
         </div>
 
-      <h2>{{page.venue}}</h2>
+    <div class="col-md-10 col-md-offset-1">
+
+         <div class="col-md-6">
+	   <h2>{{page.venue}}</h2>
+	   </div>
       <div class="row">
         <div class="col-md-6">
           <p>{{page.humandate}}</p>
@@ -20,7 +22,7 @@
         </div>
         <div class="col-md-6">
           <p>
-          <strong>Instructors:</strong>
+          <strong>Instructor:</strong>
           {% if page.instructor %}
           {{page.instructor | join: ', ' %}}
           {% else %}
@@ -29,9 +31,12 @@
           </p>
           {% if page.helper %}
           <p>
+	  {% comment %}
           <strong>Helpers:</strong>
           {{page.helper | join: ', ' %}}
           </p>
+	  {% endcomment %}
+
           {% endif %}
         </div>
       </div>
