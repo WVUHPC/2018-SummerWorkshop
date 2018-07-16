@@ -58,8 +58,13 @@ This workshop focuses on the skills needed to use effectively a High-Performance
 </h4>
 
 <H1>
+This Webpage:
 <a href="https://bit.ly/2NgRBoS">https://bit.ly/2NgRBoS</a>
+
+The streaming video:
+<a href="https://zoom.us/j/156586893?pwd=elRyYkVBbTdBTnQyeUFReGpXejlzQT09">Zoom</a>
 </H1>
+
 
 <h2 id="general">General Information</h2>
 
