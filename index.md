@@ -58,7 +58,7 @@ This workshop focuses on the skills needed to use effectively a High-Performance
 </h4>
 
 <H1>
-[https://bit.ly/2NgRBoS](https://bit.ly/2NgRBoS)
+<a href="https://bit.ly/2NgRBoS">https://bit.ly/2NgRBoS</a>
 </H1>
 
 <h2 id="general">General Information</h2>
