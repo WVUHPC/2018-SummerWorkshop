@@ -48,13 +48,18 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 {% comment %}
 <h4>This is the workshop template. Delete these lines and use it to customize your own website.
-If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
+If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in
 <a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
 and our administrator may contact you if we need any extra information.</h4>
 {% endcomment %}
 <h4>
-This workshop focuses on the skills needed to use effectively a High-Performance Computing (HPC) cluster. In particular the usage of WVU clusters: "Mountaineer", "Spruce Knob" and the forthcoming cluster "Thorny Flat" to be deployed in Fall. 
+This workshop focuses on the skills needed to use effectively a High-Performance Computing (HPC) cluster. In particular the usage of WVU clusters: "Mountaineer", "Spruce Knob" and the forthcoming cluster "Thorny Flat" to be deployed in Fall.
+
 </h4>
+
+<H1>
+[https://bit.ly/2NgRBoS](https://bit.ly/2NgRBoS)
+</H1>
 
 <h2 id="general">General Information</h2>
 
@@ -199,12 +204,12 @@ This workshop focuses on the skills needed to use effectively a High-Performance
 
 <hr/>
 
-{% comment %} 
- SURVEYS - DO NOT EDIT SURVEY LINKS 
+{% comment %}
+ SURVEYS - DO NOT EDIT SURVEY LINKS
 
 <h2 id="surveys">Surveys</h2>
 
-{% if page.carpentry == "swc" %} 
+{% if page.carpentry == "swc" %}
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
@@ -665,9 +670,9 @@ This workshop focuses on the skills needed to use effectively a High-Performance
         from <a href="https://cran.r-project.org/index.html">CRAN</a>.
         Also, please install the
         <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
-        Note that if you have separate user and admin accounts, you should run the 
-        installers as administrator (right-click on .exe file and select "Run as 
-        administrator" instead of double-clicking). Otherwise problems may occur later, 
+        Note that if you have separate user and admin accounts, you should run the
+        installers as administrator (right-click on .exe file and select "Run as
+        administrator" instead of double-clicking). Otherwise problems may occur later,
         for example when installing R packages.
       </p>
     </div>
