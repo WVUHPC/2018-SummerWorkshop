@@ -62,7 +62,7 @@ This Webpage:
 <a href="https://bit.ly/2NgRBoS">https://bit.ly/2NgRBoS</a>
 <br>
 The streaming video:
-<as href="https://zoom.us/j/156586893?pwd=elRyYkVBbTdBTnQyeUFReGpXejlzQT09">Zoom</a>
+<a href="https://zoom.us/j/156586893?pwd=elRyYkVBbTdBTnQyeUFReGpXejlzQT09">Zoom</a>
 </H1>
 
 
